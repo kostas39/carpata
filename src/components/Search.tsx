@@ -17,7 +17,7 @@ const Search: React.FC<SearchProps> = ({ parts, onAddToCart }) => {
   );
 
   return (
-    <section id="search" className="bg-white p-4 rounded shadow-md w-full">
+    <section id="search" className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-4xl mx-auto mt-16">
       <h2 className="text-2xl font-bold mb-4">Search Parts</h2>
       <div className="flex items-center">
         <input

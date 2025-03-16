@@ -16,7 +16,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onAddToCart }) => {
   }, []);
 
   return (
-    <div className="max-w-5xl mx-auto mt-8 bg-white shadow-lg rounded-lg p-6">
+    <div className="max-w-7xl mx-auto mt-16 bg-white shadow-2xl rounded-2xl p-12">
       <h2 className="text-3xl font-bold text-gray-800 mb-4">Car Parts</h2>
       <table className="w-full border-collapse">
         <thead>
